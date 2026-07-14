@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// The template's stylesheets (bootstrap / common / main / responsive) are loaded
+// once in public/index.html, so they don't need to be imported here.
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
