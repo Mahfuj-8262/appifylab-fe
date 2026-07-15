@@ -41,10 +41,9 @@ export function getCachedUser() {
   }
 }
 
-// Post/comment images come back as backend-relative paths (e.g. "/uploads/x.png").
-export function mediaUrl(path) {
-  return path ? API_BASE + path : null;
-}
+// export function mediaUrl(path) {
+//   return path ? API_BASE + path : null;
+// }
 
 async function toError(res, fallback) {
   let message = fallback;
