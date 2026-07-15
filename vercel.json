@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/api/:path*", "destination": "http://appifylab-assessment-env.eba-uxxnas39.us-east-1.elasticbeanstalk.com/api/:path*" }
-  ]
-}
